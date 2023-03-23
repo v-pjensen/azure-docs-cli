@@ -67,7 +67,7 @@ az account show --output table
 az account list --query "[?isDefault]"
 
 # store the default subscription  in a variable
-subscriptionId="$(az account list --query "[?isDefault].id" -o tsv)"
+$subscriptionId="$(az account list --query "[?isDefault].id" -o tsv)"
 echo $subscriptionId
 ```
 
