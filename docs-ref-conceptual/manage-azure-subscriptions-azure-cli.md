@@ -82,7 +82,7 @@ Azure subscriptions have both a name and an ID.  You can switch to a different s
 
 ```azurecli-interactive
 # change the active subscription using the subscription name
-az account set --subscription "My Demos"
+az account set --name "My Demos"
 
 # change the active subscription using the subscription ID
 az account set --subscription "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
